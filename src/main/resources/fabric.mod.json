@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "embromoney",
+	"version": "${version}",
+	"name": "Embro Money",
+	"description": "This is an mod for Embro server | Discord Nirix_ or Nirix#1017",
+	"authors": [
+		"Nirix_  (thx - forengeit345)"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/embronrepublic",
+		"sources": "https://github.com/Nirix121/Embro_Money"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/embromoney/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.embromoney.EmbroMoney"
+		],
+		"client": [
+			"net.embromoney.EmbroMoneyClient"
+		],
+		"fabric-datagen": [
+			"net.embromoney.EmbroMoneyDataGenerator"
+		]
+	},
+	"mixins": [
+		"embromoney.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

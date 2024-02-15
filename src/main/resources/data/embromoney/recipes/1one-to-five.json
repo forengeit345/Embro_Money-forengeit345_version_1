@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "embromoney:one_embroniy"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
+    }
+    },
+  "result": {
+    "item": "embromoney:five_embroniy"
+  }
+}
